@@ -900,7 +900,7 @@ components:
           - "true"
           type: string
           description: the identifier for this party, often referred to as an EDI
-            Address
+            Address, it is recommended to use the BIC Facility Code for this identifier for container facilities.
           example: DEHAMCMRA
         userCode:
           maxLength: 16
